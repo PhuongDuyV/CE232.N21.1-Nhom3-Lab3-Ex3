@@ -20,8 +20,9 @@ static esp_ble_adv_params_t ble_adv_params = {
 };
 
 static uint8_t adv_raw_data[17] = {
-    0x0D,            
-    0x09,             
+    0x02, 0x01, 0x06,
+   0x02, 0x0a, 0xeb,
+    0x0D,0x09,             
     '5', '0', '%', ' ', 'd', 'i', 's', 'c', 'o', 'u', 'n', 't' 
 };
 
